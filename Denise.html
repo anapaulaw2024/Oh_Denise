@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OH DENISE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Será que voce entra na live?</h1>
+<form>
+  <label>Nome</label>
+  <input type="text" id="nome" placeholder="Digite eu nome">
+  <a><button type="submit" onclick="function entraSaiLive()">Descubra!</button></a>
+</form>
+<script>
+  var nome = document.querySelector("nome").value;
+  var saiLive = ["Denise","denise","DENISE","Denize","denize","DENIZE"];
+  function entraSaiLive(){
+    if (nome == saiLive){
+      document.write("OH DENISE, SAI DA LIVE FILHA, NINGUÉM CHAMOU VOC AQUI! QUE TE CHAMOU AQUI!");
+    }else{
+      document.write("pode entra ♡")
+    };
+  };
+</script>
+</body>
+</html>
